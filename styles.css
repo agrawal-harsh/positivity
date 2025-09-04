@@ -60,9 +60,19 @@
 
         .nav-links a {
             text-decoration: none;
-            color: #666;
+            color: #9EA2AD;
             font-weight: 500;
             position: relative;
+        }
+
+        
+        .active{
+            color:#49362F !important;
+            font-weight: 500;
+            font-size:16px;
+            background-color: #8360541A;
+            border-radius: 8px;
+            padding: 11px 30px;
         }
 
         .nav-links a::after {
@@ -74,23 +84,25 @@
 
         .auth-buttons {
             display: flex;
-            gap: 20px;
+            gap: 10px;
         }
 
         .login-btn {
             background: none;
-            border: none;
-            color: #666;
+            border: 2px solid #E9EAEB;
+            padding: 12px 24px;
+            border-radius: 8px;
+            color: #454A53;
             font-weight: 500;
             cursor: pointer;
         }
 
         .signup-btn {
-            background: #8B6F47;
+            background: #3F2E28;
             color: white;
             border: none;
             padding: 12px 24px;
-            border-radius: 25px;
+            border-radius: 8px;
             font-weight: 500;
             cursor: pointer;
         }
@@ -101,34 +113,37 @@
             background-size: cover;
             background-position: center;
             color: white;
-            padding: 120px 0;
+            height: 552px;
+            padding: 84px 0;
             text-align: left;
         }
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 64px;
-            font-weight: 600;
-            line-height: 1.2;
-            margin-bottom: 30px;
-            max-width: 800px;
+            font-size: 46px;
+            font-weight: 700;
+            line-height: 69px;
+            margin-bottom: 25px;
+            max-width: 600px;
         }
 
         .hero p {
-            font-size: 18px;
-            line-height: 1.7;
-            margin-bottom: 40px;
-            max-width: 600px;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            margin-bottom: 25px;
+            max-width: 680px;
         }
 
         .cta-button {
             background: white;
-            color: #8B6F47;
+            color: #836054;
             border: none;
-            padding: 15px 30px;
-            border-radius: 30px;
-            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-weight: 400;
             font-size: 16px;
+            line-height: 24px;
             cursor: pointer;
             transition: transform 0.3s ease;
         }
