@@ -27,15 +27,13 @@
         .logo-img-text {
             height: 17px;
             position: relative;
-            left:-10.7rem;
-            margin-right: -10px;
+            left:-8rem;
         }
 
         .logo-img {
             height: 37px;
             position: relative;
-            left:-7.5rem;
-            margin-right: -10px;
+            left:-5rem;
         }   
 
         nav {
@@ -85,12 +83,14 @@
         .auth-buttons {
             display: flex;
             gap: 10px;
+            position:relative;
+            left:4rem
         }
 
         .login-btn {
             background: none;
             border: 2px solid #E9EAEB;
-            padding: 12px 24px;
+            padding: 8px 24px;
             border-radius: 8px;
             color: #454A53;
             font-weight: 500;
@@ -101,7 +101,7 @@
             background: #3F2E28;
             color: white;
             border: none;
-            padding: 12px 24px;
+            padding: 8px 24px;
             border-radius: 8px;
             font-weight: 500;
             cursor: pointer;
