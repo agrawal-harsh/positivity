@@ -24,16 +24,21 @@
             position: relative;
             z-index: 100;
         }
+        .branding{
+            display:flex;
+            align-items: center;
+        }
+        
         .logo-img-text {
             height: 17px;
             position: relative;
-            left:-3.5rem;
+            left:-5rem;
         }
 
         .logo-img {
             height: 37px;
             position: relative;
-            left:-1rem;
+            left:-4rem;
         }   
 
         nav {
@@ -42,18 +47,11 @@
             align-items: center;
         }
 
-        .logo {
-            display: flex;
-            align-items: center;
-            font-size: 24px;
-            font-weight: 600;
-            color: #8B6F47;
-        }
-
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 40px;
+            align-items: center;
+            gap:20px
         }
 
         .nav-links a {
