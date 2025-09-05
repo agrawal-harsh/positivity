@@ -27,13 +27,13 @@
         .logo-img-text {
             height: 17px;
             position: relative;
-            left:-8rem;
+            left:-3.5rem;
         }
 
         .logo-img {
             height: 37px;
             position: relative;
-            left:-5rem;
+            left:-1rem;
         }   
 
         nav {
@@ -160,8 +160,8 @@
 
         .section-title {
             font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            font-weight: 500;
+            font-size: 30px;
+            font-weight: 600;
             margin-left: 13px;
             text-align: center;
             margin-bottom: 8px;
@@ -170,7 +170,7 @@
 
         .section-subtitle {
             text-align: center;
-            font-size: 17px;
+            font-size: 16px;
             color: #664B41;
             margin-bottom: 40px;
             margin-left: auto;
@@ -234,30 +234,30 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 40px;
-            margin: 80px;
+            margin: 50px;
         }
 
         .process-step {
             background: #8360540D;
-            padding: 15px 10px;
+            padding: 15px 10px 30px 10px;
             border-radius: 15px;
             text-align: center;
-            border: 2px solid #836054;
+            border: 1px solid #836054;
         }
 
         .process-step::before {
             content: "";
             display: block;
-            width: 70px;
-            height: 70px;
+            width: 65px;
+            height: 65px;
             background: #DBCDC7;
             border-radius: 50%;
-            margin: 0 auto 15px;
+            margin: -5px auto 15px;
         }
 
         .process-step h4 {
             font-family: 'Playfair Display', serif;
-            font-size: 26px;
+            font-size: 24px;
             font-weight: 450;
             margin-bottom: 20px;
             color: #8B6F47;
@@ -265,7 +265,7 @@
 
         .process-step p {
             color: #836054;
-            font-size: 18px;
+            font-size: 15px;
         }
 
         /* Features Grid */
@@ -273,35 +273,38 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 40px;
-            margin-bottom: 100px;
+            padding:0 55px;
+            margin-top: -5px;
         }
 
         .feature-card {
-            background: white;
-            padding: 40px 30px;
+            background: #8360540D;
+            padding: 16px 16px;
             border-radius: 15px;
-            border: 2px solid #E8E2DB;
+            border: 1px solid #A27B6E;
         }
 
         .feature-card::before {
             content: "";
             display: block;
             width: 50px;
-            height: 50px;
-            background: #8B6F47;
-            border-radius: 8px;
-            margin-bottom: 25px;
+            height: 44px;
+            background: #A27B6E;
+            margin-bottom: 10px;
         }
 
         .feature-card h4 {
             font-family: 'Playfair Display', serif;
             font-size: 24px;
-            margin-bottom: 20px;
+            font-weight: 500;
+            margin-bottom: 7px;
             color: #8B6F47;
         }
 
         .feature-card p {
-            color: #666;
+            color: #836054;
+            font-weight: 500;
+            font-size:15px;
             line-height: 1.6;
         }
 
@@ -309,119 +312,130 @@
         .assessment-types {
             padding: 100px 0;
             background: white;
+            margin-top: -3rem;
         }
 
         .assessment-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
+            padding-right: 42px;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 30px;
             align-items: center;
         }
 
         .assessment-list {
-            space-y: 20px;
+            padding:0 0 0 55px;
         }
 
         .assessment-item {
-            background: #F8F6F3;
-            padding: 25px 30px;
+            background: #8360541A;
+            padding: 10px 15px;
             border-radius: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 13px;
         }
 
         .assessment-item h4 {
+            font-family: 'Playfair Display', serif;
             font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 10px;
+            font-weight: 550;
+            margin-bottom: 5px;
             color: #8B6F47;
         }
 
         .assessment-item p {
-            color: #666;
+            color: #836054;
+            font-size: 13px;
+            font-weight: 400;
             line-height: 1.5;
         }
 
         .assessment-image {
-            background: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
-            background-size: cover;
+            background: url('assets/assessment.png');
+            height: 346px;
+            background-size: contain;
             background-position: center;
-            border-radius: 15px;
-            min-height: 500px;
+            margin-top: -10px;
         }
 
         /* CTA Section */
         .cta-section {
-            padding: 100px 0;
-            background: #F8F6F3;
+            padding: 40px 155px 40px 175px;
+            margin-top: -2.8rem;
+            background: #F3EFEE;
         }
 
         .cta-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 80px;
+            gap: 60px;
             align-items: start;
         }
 
         .cta-left h2 {
             font-family: 'Playfair Display', serif;
-            font-size: 36px;
-            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 10px;
             color: #8B6F47;
         }
 
         .cta-left p {
-            color: #666;
+            color: #664B41;
             font-size: 16px;
             line-height: 1.6;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
 
         .form-group {
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
         .form-group label {
             display: block;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
+            font-size: 14px;
             font-weight: 500;
-            color: #333;
+            color: #836054;
         }
 
         .form-group input,
         .form-group select {
+            color:#A37C6F;
             width: 100%;
-            padding: 15px;
-            border: 2px solid #E8E2DB;
-            border-radius: 10px;
-            font-size: 16px;
+            padding: 10px;
+            border-radius: 4px;
+            border:none;
+            font-size: 14px;
             background: white;
         }
 
         .submit-btn {
             width: 100%;
-            background: #8B6F47;
+            background: #836054;
             color: white;
             border: none;
-            padding: 15px;
-            border-radius: 10px;
+            padding: 13px;
+            border-radius: 4px;
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 400;
             cursor: pointer;
-            margin-top: 20px;
+            margin-top: 10px;
         }
 
-        .benefits-card {
+        .benefits-content {
             background: white;
-            padding: 40px;
+            padding: 19px 25px;
             border-radius: 15px;
-            border: 2px solid #E8E2DB;
+            margin-left:20px;
+            border: 1px solid #83605480;
         }
 
         .benefits-card h3 {
             font-family: 'Playfair Display', serif;
-            font-size: 28px;
-            margin-bottom: 30px;
-            color: #8B6F47;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 0px;
+            color: #664B41;
         }
 
         .benefits-list {
@@ -430,43 +444,46 @@
 
         .benefits-list li {
             padding: 10px 0;
-            color: #666;
+            color: #664B41;
             position: relative;
-            padding-left: 25px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-left: 17px;
         }
 
         .benefits-list li::before {
             content: "•";
-            color: #8B6F47;
+            color: #664B41;
             font-size: 20px;
             position: absolute;
             left: 0;
+            bottom:8px;
         }
 
         .stats {
             display: flex;
-            gap: 40px;
-            margin-top: 40px;
+            margin-top: 10px;
         }
 
         .stat {
-            text-align: center;
-            flex: 1;
-            background: #F8F6F3;
-            padding: 25px;
-            border-radius: 10px;
+            background: white;
+            padding: 0px 54px;
+            border-radius: 15px;
+            margin-left:20px;
+            border: 1px solid #83605480;
         }
 
         .stat h4 {
-            font-size: 36px;
-            font-weight: 700;
-            color: #8B6F47;
-            margin-bottom: 5px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 26px;
+            font-weight: 500;
+            color: #664B41;
         }
 
         .stat p {
-            color: #666;
-            font-size: 14px;
+            color: #BA9D93;
+            font-size: 16px;
         }
 
         /* FAQ Section */
